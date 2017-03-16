@@ -1,1 +1,1 @@
-Currently, your can test SELECT performance (including transfering data) by sending lots of GET requests to server. Default number of requests is 1000000. You can measure used time by using "time" command with this tess.
+Currently, your can test SELECT performance (including transfering data) by sending lots of GET requests to server. Default number of requests is 1000000. You can measure used time by using "time" command with this test. Use select_perf.c program to perform that.
