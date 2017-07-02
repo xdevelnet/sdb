@@ -22,7 +22,7 @@ static inline int prepare_inet_listener(void) {
 		perror(SOCKET_FAILURE_ERRMSG);
 		exit(EXIT_FAILURE);
 	}
-	if (setsockopt(fd, SOL_SOCKET, SO_REUSEADDR, &(int){ 1 }, sizeof(int)) <0) {
+	if (setsockopt(fd, SOL_SOCKET, SO_REUSEADDR, &(int){ 1 }, sizeof(int)) < 0) {
 		perror(NULL);
 		exit(EXIT_FAILURE);
 	}
